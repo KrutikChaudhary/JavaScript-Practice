@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile {
+    display: flex-start;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.profile img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio {
+    flex-grow: 1;
+}
+
+.bio h2 {
+    margin-top: 0;
+}
+
+.projects,
+.experience {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li,
+.experience li {
+    margin-bottom: 20px;
+}
+
+.projects h4,
+.experience h4 {
+    margin-top: 0;
+}
+
+.projects p,
+.experience p {
+    margin-bottom: 5px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.social-links li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    background-color: #47b190;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links {
+    margin: 0;
+}
+
+footer .social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer .social-links li a {
+    text-decoration: none;
+    color: #320d0d;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+footer .social-links li a:hover {
+    background-color: #333;
+    color: #274b6e;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
