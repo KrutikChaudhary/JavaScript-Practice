@@ -72,8 +72,13 @@ function determineNumberType(){
     }
 
     //alert message
-    alert(string);
+    displayText(string);
 
+}
+
+function displayText(string){
+    var message=document.getElementById('indexData');
+    message.textContent = string;
 }
 
 function isPrimeNumber(number){
