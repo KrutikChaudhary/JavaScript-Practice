@@ -3,22 +3,30 @@
 
 
 
-# Lab / Assignment / Project Title
-
-**[Optional]** If what is being submitted is an individual Lab or Assignment. Otherwise, include a brief one paragraph description about the project.
+# Activity Lab resubmission
 
 * *Date Created*: 03 FEB 2024
-* *Last Modification Date*: 03 FEB 2024
+* *Last Modification Date*: 27 FEB 2024
 * *Lab URL*: https://web.cs.dal.ca/~kchaudhary/csci3172/lab2/
 * *Git URL*: https://git.cs.dal.ca/kchaudhary/csci3172/-/tree/main/labs/lab2?ref_type=heads
 
 
 ## Authors
 
-**[Optional]** If what is being submitted is an individual Lab or Assignment, you may simply include your name and email address. Otherwise list the members of your group.
 
 * [Krutik Chaudhary](krutik@dal.ca) - *Student*
 
+##Last feedback from TA/Marker
+    Overall Feedback
+    Overall good!
+
+    The function to calculate the area of a rectangle should accept length and width as its 2 input parameters, but you hard-coded it. -5
+
+    To have good coding practice, put your JS code into a separate file instead of embedding it in your HTML file. -1
+
+##Improvements from last feedback 
+According to the last feedback, I seperated script.js in different file and folder
+I removed the hard coding way of the areaOfRectangle function, now this function is taking input in console
 
 ## Running the tests
 
@@ -27,7 +35,6 @@ To test the code
 2. Open the console
 3. Check if its showing this output:
     Area of circle with radius 6 is :113.09723999999999
-    Area of rectangle with a length of 20, and width of 15 is: 300
 
     To check for arithmetic function:
     1. type calculate(15,3) in console
@@ -40,21 +47,13 @@ To test the code
     2. Test the code with any another number and check if operations are correct.
 
 
-## Built With
-
-<!--- Provide a list of the frameworks used to build this application, your list should include the name of the framework used, the url where the framework is available for download and what the framework was used for, see the example below --->
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+    To check for areaOfRectangle function:
+    1. type areaOfRectangle(20,25) in console
+    If its showing following output then its working: 
+    Area of rectangle with a length of 20, and width of 25 is: 500
 
 
 
 ## Sources Used
 I have referred Professors provided slides and lab videos
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc

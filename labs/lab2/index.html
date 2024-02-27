@@ -9,75 +9,10 @@
     <p>
         To call the function of arithmetic operations use calculate(a,b) in console<br>
         where a and b can be any number<br><br>
-
+        To call the function of area of a rectangle use areaOfRectangle(length, width) in console<br>
+        where length and width can be any number(non-negative)<br><br>
         Anwers to the questions are included in comments in the script-tag.
 </p>
-    <script>
-
-        // Anwers to the question
-
-        // a) What is the scope of a const variable?
-        // const keyword is used to declare a constant variable.
-        // The scope of a const variable in JavaScript is block scope. 
-        // We can only access the const variables in the block, in which it was declared
-        // We can add or change property
-        // but cannot reassign the const
-        // object.
-
-        //b) When were the let and const keywords added to JavaScript?
-        //let and const keywords were introduced in ES6(2015)
-
-
-        //function to calculate area of circle with radius 6
-        function areaOfCircle(){
-
-            //initiailze
-            const radius = 6;
-            const pi = 3.14159;
-
-            //calculate and print
-            const area = pi*radius*radius;
-            console.log("Area of circle with radius 6 is :" + area);
-        }
-        //call
-        areaOfCircle();
-
-        //calculate
-        function calculate(a,b){
-                //add 
-                let addition;
-				addition = a + b;
-				console.log("Result after addition : " + addition);
-
-                //subtract
-				let subtraction;
-				subtraction = a - b;
-				console.log("Result after subtraction : " + subtraction);
-
-                //multiply
-				let multiplication;
-				multiplication = a * b;
-				console.log("Result after multiplication : " + multiplication);
-
-                //divide
-				let division;
-				division = a / b;
-				console.log("Result after division : " + division);
-        }
-
-
-        //function to calculate area of rectangle with a length of 20, and width of 15.
-        function areaOfRectangle(){
-            //initialize
-            const length = 20;
-            const width = 15;
-
-            //print
-            console.log("Area of rectangle with a length of 20, and width of 15 is: " + length*width);
-        }
-        //call
-        areaOfRectangle();
-
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
