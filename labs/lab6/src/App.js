@@ -7,7 +7,13 @@ function App() {
         <h1>Welcome to my portfolio!!!</h1>
         <h2>Krutik Chaudhary</h2>
         
-        <div class="summary">
+        <nav>
+          <a href="#summary">Summary</a> 
+          <a href="#education">Education</a> 
+          <a href="#skills">Technical Skills</a> 
+          <a href="#experience">Experience</a> 
+        </nav>
+        <div id="summary" class="summary">
           <h3>Summary</h3>
           <p>Enthusiastic and committed Bachelor of Computer Science student at Dalhousie University with a strong foundation in
             software development, data structures, and database management. Experienced in a customer service role, enhancing
@@ -16,7 +22,7 @@ function App() {
             and knowledge by applying for Internship opportunities. Available for 4-8 months starting from May 2024.</p>
         </div>
 
-        <div class="education">
+        <div id="education" class="education">
         <h3>Education</h3>
         <h4>Bachelor of Computer Science</h4>
         <p>• Relevant coursework: Data Structures and Algorithms, Software Development, Database Management Systems, Object Oriented Programming, Introduction to Computer Systems, Introduction to Probability and Statistics, Matrix Theory
@@ -24,7 +30,7 @@ function App() {
         </div>
 
         <h3>TECHNICAL SKILLS</h3>
-        <div class="skills-grid">
+        <div id="skills" class="skills-grid">
         <div class="skill-category">
           <h4>Programming Languages: </h4>
           <p>Java, SQL, HTML, CSS, JavaScript</p>
@@ -43,7 +49,7 @@ function App() {
         </div>
       </div>
         
-      <div class="experience">
+      <div id="experience" class="experience">
         <h3>PROJECT EXPERIENCE</h3>
           <h4>Whatsapp Clone: Java, Android Studio, Firebase</h4>
             <p>• Engineered a WhatsApp Clone App with real-time messaging using Firebase Realtime Database</p>
