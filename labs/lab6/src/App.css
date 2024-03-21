@@ -5,6 +5,8 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -89,4 +91,16 @@ h4 {
   to {
     transform: rotate(360deg);
   }
+}
+
+#skill_section{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    flex-direction: column;
+  }
+
 }

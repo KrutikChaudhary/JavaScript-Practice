@@ -30,24 +30,26 @@ function App() {
         </div>
 
         <h3>TECHNICAL SKILLS</h3>
-        <div id="skills" class="skills-grid">
-        <div class="skill-category">
-          <h4>Programming Languages: </h4>
-          <p>Java, SQL, HTML, CSS, JavaScript</p>
+          <div id='skill_section'>
+          <div id="skills" class="skills-grid">
+            <div class="skill-category">
+              <h4>Programming Languages: </h4>
+              <p>Java, SQL, HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-category">
+              <h4>Developer Tools: </h4>
+              <p>Git, IntelliJ, VS Code, Android Studio, Eclipse</p>
+            </div>
+            <div class="skill-category">
+              <h4>Testing Skills: </h4>
+              <p>JUnit, Regression testing</p>
+            </div>
+            <div class="skill-category">
+              <h4>Collaboration Tools: </h4>
+              <p>Jira, Confluence, Teams, Microsoft 365</p>
+            </div>
+          </div>
         </div>
-        <div class="skill-category">
-          <h4>Developer Tools: </h4>
-          <p>Git, IntelliJ, VS Code, Android Studio, Eclipse</p>
-        </div>
-        <div class="skill-category">
-          <h4>Testing Skills: </h4>
-          <p>JUnit, Regression testing</p>
-        </div>
-        <div class="skill-category">
-          <h4>Collaboration Tools: </h4>
-          <p>Jira, Confluence, Teams, Microsoft 365</p>
-        </div>
-      </div>
         
       <div id="experience" class="experience">
         <h3>PROJECT EXPERIENCE</h3>
